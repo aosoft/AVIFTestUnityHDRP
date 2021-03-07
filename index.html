@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>AVIF Test (Unity HDRP Scene template)</title>
+        <style type="text/css">
+        <!--
+            body {
+                 background-color: black;
+                 color: white;
+            }
+            img { width: 100%; }
+        -->
+        </style>
+    </head>
+    <body>
+        <h2>AVIF Test (Unity HDRP Scene template)</h2>
+        <ul>
+            <li>Unity 2021.1b10 / HDRP 11.0.0 / Unity Recorder 2.5.4 (EXR output)</li>
+            <li>Convert EXR (scRGB) to PNG (BT.2020/ST.2084)</li>
+            <li>$ avifenc src.png -d 10 -y 420 --cicp 9/16/9 --min 0 --max 0 dst.avif</li>
+        </ul>
+        <p />
+        <img src="1.avif" />
+        <p />
+        <img src="2.avif" />
+        <p />
+        <img src="3.avif" />
+        <p />
+    </body>
+</html>
